@@ -3,15 +3,9 @@
 // This file also establishes a connection to MySQL 
 // and selects the database.
 
-
-//local params for testing
-//DEFINE ('DB_USER', 'root');
-//DEFINE ('DB_PASSWORD', 'root');
-//DEFINE ('DB_HOST', '127.0.0.1');
-
-$db_user = getenv('DB_USER');
-$db_password = getenv('DB_PASSWORD');
-$db_host = getenv('DB_HOST');
+$db_user = 'root';
+$db_password = 'root';
+$db_host = '127.0.0.1';
   
 
 // Set the database access information as constants:
