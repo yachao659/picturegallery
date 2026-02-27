@@ -4,7 +4,7 @@
 // and selects the database.
 
 $db_user = 'root';
-$db_password = 'password';
+$db_password = 'Motdepasse0!';
 $db_host = '127.0.0.1';
   
 
